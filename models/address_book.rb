@@ -45,7 +45,10 @@ class AddressBook
         lower = mid + 1
       end
     end
-    
     return nil
   end
+
+    def nuke
+      @entries = []
+    end
 end
